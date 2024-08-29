@@ -1,5 +1,5 @@
 import os
-# if using Apple MPS, fall back to CPU for unsupported ops
+# if using Apple MPS, fall back to CPU for unsupported o ps
 os.environ["PYTORCH_ENABLE_MPS_FALLBACK"] = "1"
 import numpy as np
 import torch
